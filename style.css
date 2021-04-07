@@ -11,7 +11,7 @@
     transition: 0.3s ease-in;
 }
 
-.mockup+.no-load .img{
+.mockup-no-load .img{
     opacity: 1;
 }
 
