@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    /* opacity: 0; */
+    /* clip-path: inset(0 0 100% 0); */
+    clip-path: circle(100px at 125px 125px);
+    transition: 0.8s ease-in;
+}
+
+.load{
+    /* clip-path: inset(0 0 0 0); */
+    clip-path: circle(500px at 250px 250px);;
+}
+
+.mockup-no-load .img{
+    opacity: 1;
+}
+
+
+.no-script{
+    display: none;
+
+}
