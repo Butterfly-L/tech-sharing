@@ -1,4 +1,4 @@
-// document.addEventListener("DOMContentLoaded", function() {
+document.addEventListener("DOMContentLoaded", function() {
     // 選定頁面中帶有 lazy class 名稱的那張圖片
     let lazyImage = document.querySelectorAll(".img")
     
@@ -20,4 +20,4 @@
   
     // 註冊 scroll 事件監聽器，使用者滑動頁面觸發 lazyLoad 
     document.addEventListener("scroll", lazyLoad)
-//   })
+  })
